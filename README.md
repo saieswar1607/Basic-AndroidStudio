@@ -91,3 +91,6 @@ public class MainActivity extends AppCompatActivity {
 <img width="1440" alt="6" src="https://user-images.githubusercontent.com/93427011/190209240-03299c3e-b156-4b23-973b-90e063074919.png">
 
 <img width="1440" alt="7" src="https://user-images.githubusercontent.com/93427011/190209329-a0fdd57f-7fd3-4d43-8885-36807fb3a188.png">
+
+### Result:
+Therefore a program is return to develop a program to detect the various life cycles of an activity. The program is successfully executed.
