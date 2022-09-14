@@ -32,14 +32,138 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Explicit Intents”.
-Developed by:
-Registeration Number :
+Developed by: Sai Eswar Kandukuri
+Registeration Number : 212221240020
 */
+```
+
+### MainActivity.java
+```
+package com.example.project2;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class MainActivity extends AppCompatActivity {
+
+    EditText edt1;
+    Button btn1;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        edt1 = findViewById(R.id.edt1);
+        btn1 = findViewById(R.id.btn1);
+        Intent i = new Intent(MainActivity.this,Secondactivity.class);
+        btn1.setOnClickListener(View->{
+            i.putExtra("number",edt1.getText().toString());
+            startActivity(i);
+        });
+
+    }
+}
+```
+
+### Secondactivity.java
+```
+package com.example.project2;
+
+import android.os.Bundle;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Secondactivity extends AppCompatActivity {
+    TextView txt2;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_2);
+
+        Bundle b = getIntent().getExtras();
+
+        int no = Integer.parseInt(b.getString("number"));
+        long f=1;
+
+        for(int i=no; i>0; i--)
+        {
+            f = f * i;
+        }
+
+        txt2 = findViewById(R.id.txt2);
+        txt2.setText("Factorial of " + no + " is " + f);
+    }
+
+}
+
+```
+
+### activity_main.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter a number"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginTop="220dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Factorial" />
+
+</RelativeLayout>
+```
+
+### activity_2.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+</RelativeLayout>
 ```
 
 ## OUTPUT
 
+<img width="1440" alt="2b1" src="https://user-images.githubusercontent.com/93427011/190225594-a3193429-b69d-4ed5-898f-cbec3a35ee25.png">
 
+<img width="1440" alt="2b2" src="https://user-images.githubusercontent.com/93427011/190225645-4d173733-38cb-4f0b-b628-a65f0ec9d229.png">
 
 
 ## RESULT
