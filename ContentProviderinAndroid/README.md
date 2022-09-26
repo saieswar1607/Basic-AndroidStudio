@@ -29,12 +29,12 @@ Step 7: Save and run the application.
 ## PROGRAM:
 ```
 Program to print the text create your own content providers to get contacts details.
-Developed by:P.SYAM TEJ
-Registeration Number :212221240056
+Developed by:SAI ESWAR KANDUKURI
+Registeration Number :212221240020
 ```
 ### MainActivity.java
 ```
-package com.sanath.contentproviderapp;
+package com.example.contentproviderapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
