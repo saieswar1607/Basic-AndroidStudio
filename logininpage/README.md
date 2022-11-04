@@ -190,7 +190,6 @@ public class MainActivity extends AppCompatActivity {
 ```
 ###  OUTPUT
 
-### MainActivity.java
 
 <img width="320" alt="Main-esh" src="https://user-images.githubusercontent.com/93427011/199954446-5e79e99f-bbd0-49eb-b23f-0db09e00c06f.png">
 
