@@ -34,7 +34,7 @@ Registeration Number :212221240020
 ```
 MainActivity.java
 ```
-package com.sanath.exp6;
+package com.example.exp6;
 
 
 import androidx.appcompat.app.AppCompatActivity;
