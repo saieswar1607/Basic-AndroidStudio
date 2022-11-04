@@ -30,8 +30,8 @@ Step 7: Save and run the application.
 ```
 /*
 Program to display check list item”.
-Developed by:
-Registeration Number :
+Developed by: Sai Eswar Kandukuri
+Registeration Number : 212221240020
 */
 ```
 
