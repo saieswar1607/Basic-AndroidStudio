@@ -193,14 +193,12 @@ public class MainActivity extends AppCompatActivity {
 ### MainActivity.java
 
 <img width="320" alt="Main-esh" src="https://user-images.githubusercontent.com/93427011/199954446-5e79e99f-bbd0-49eb-b23f-0db09e00c06f.png">
-![Screenshot (13)](https://user-images.githubusercontent.com/93427011/199954614-0c36a32f-280f-4da4-ac97-29a738d892a5.png)
 
 
 
 
 ### activity_main.xml
 <img width="317" alt="esh" src="https://user-images.githubusercontent.com/93427011/199954484-6badd8c6-f578-49fe-b1a6-7b3a20db7226.png">
-![Screenshot (14)](https://user-images.githubusercontent.com/93427011/199954692-b002379d-5c13-4d40-b7e4-a641bb81fadc.png)
 
 
 
