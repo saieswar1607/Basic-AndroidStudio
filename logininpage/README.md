@@ -192,18 +192,17 @@ public class MainActivity extends AppCompatActivity {
 
 ### MainActivity.java
 
+<img width="320" alt="Main-esh" src="https://user-images.githubusercontent.com/93427011/199954446-5e79e99f-bbd0-49eb-b23f-0db09e00c06f.png">
+![Screenshot (13)](https://user-images.githubusercontent.com/93427011/199954614-0c36a32f-280f-4da4-ac97-29a738d892a5.png)
 
-![Screenshot (11)](https://user-images.githubusercontent.com/93427522/199950496-af8c1a71-f0f3-4abd-af5b-2df6b2b6c37a.png)
 
-<img width="316" alt="MainActivity java" src="https://user-images.githubusercontent.com/93427522/199949764-ba526a9a-5250-4e0c-bdc1-0d8994399bed.png">
 
 
 ### activity_main.xml
+<img width="317" alt="esh" src="https://user-images.githubusercontent.com/93427011/199954484-6badd8c6-f578-49fe-b1a6-7b3a20db7226.png">
+![Screenshot (14)](https://user-images.githubusercontent.com/93427011/199954692-b002379d-5c13-4d40-b7e4-a641bb81fadc.png)
 
 
-![Screenshot (12)](https://user-images.githubusercontent.com/93427522/199950532-b8067ca6-1d8b-4c5c-8617-6acfadf440ed.png)
-
-<img width="314" alt="activity_main xml" src="https://user-images.githubusercontent.com/93427522/199949795-d16df9d7-f0ae-47db-ac76-4fbed2cd1052.png">
 
 ### RESULT
 Thus a Simple Android Application develop a program to accept username and password from the end user using Text View and Edit Text and display personal information of the student using Android Studio is developed and executed successfully.
